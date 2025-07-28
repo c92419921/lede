@@ -53,16 +53,21 @@
 
 		led_power: power {
 			label = "blue:power";
+			gpio = <&tlmm 58 GPIO_ACTIVE_HIGH>;
+		};
+
+		mesh {
+			label = "red:mesh";
 			gpio = <&tlmm 73 GPIO_ACTIVE_HIGH>;
+		};
+
+		lan {
+			label = "blue:lan";
+			gpio = <&tlmm 74 GPIO_ACTIVE_HIGH>;
 		};
 
 		wan {
 			label = "blue:wan";
-			gpio = <&tlmm 74 GPIO_ACTIVE_HIGH>;
-		};
-
-		wlan2g {
-			label = "blue:wlan2g";
 			gpio = <&tlmm 37 GPIO_ACTIVE_HIGH>;
 		};
 
@@ -71,9 +76,9 @@
 			gpio = <&tlmm 35 GPIO_ACTIVE_HIGH>;
 		};
 
-		wps {
-			label = "red:wps";
-			gpio = <&tlmm 69 GPIO_ACTIVE_HIGH>;
+		wlan2g {
+			label = "blue:wlan2g";
+			gpio = <&tlmm 70 GPIO_ACTIVE_HIGH>;
 		};
 	};
 };

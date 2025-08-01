@@ -170,6 +170,7 @@
 	opp-1800000000 {
 		opp-supported-hw = <0x1>;
 	};
+};
 
 &rpm {
 	status = "disabled";

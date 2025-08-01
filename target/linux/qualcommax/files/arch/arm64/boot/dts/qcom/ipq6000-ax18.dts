@@ -148,19 +148,19 @@
 	};
 
 	opp-1200000000 {
-		opp-supported-hw = <0x4>;
+		opp-supported-hw = <0xf>;
 	};
 
 	opp-1320000000 {
-		opp-supported-hw = <0x3>;
+		opp-supported-hw = <0xf>;
 	};
 
 	opp-1440000000 {
-		opp-supported-hw = <0x3>;
+		opp-supported-hw = <0xf>;
 	};
 
 	opp-1512000000 {
-		opp-supported-hw = <0x2>;
+		opp-supported-hw = <0xf>;
 	};
 
 	opp-1608000000 {
